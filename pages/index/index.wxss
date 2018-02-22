@@ -1,0 +1,12 @@
+@import '/libs/wxParse/wxParse.wxss';
+
+image {
+  display: block;
+}
+
+.container {
+  background: steelblue;
+  padding: 10px;
+  margin: 10px 15px;
+  color: white;
+}
