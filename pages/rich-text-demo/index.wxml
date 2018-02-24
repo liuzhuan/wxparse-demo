@@ -1,5 +1,3 @@
-<!--pages/rich-text-demo/index.wxml-->
-<text>pages/rich-text-demo/index.wxml</text>
 <block wx:for="{{ html }}">
   <rich-text class="rich" nodes="{{item}}"></rich-text>
 </block>

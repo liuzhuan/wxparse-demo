@@ -1,5 +1,3 @@
-/* pages/rich-text-demo/index.wxss */
-
 .rich {
   border: 1px solid #CCC;
   display: block;
@@ -13,4 +11,8 @@
 
 .blue {
   background: steelblue;
+}
+
+.underline {
+  text-decoration: underline;
 }
