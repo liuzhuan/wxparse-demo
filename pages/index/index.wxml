@@ -3,5 +3,7 @@
 <import src="/libs/wxParse/wxParse.wxml" />
 
 <view class="container">
-  <template is="wxParse" data="{{ wxParseData: article.nodes }}"></template>
+  <block wx:for="{{ nodes }}">
+    <template is="wxParse" data="{{ wxParseData: item.nodes }}"></template>
+  </block>
 </view>
