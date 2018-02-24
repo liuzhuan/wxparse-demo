@@ -1,4 +1,7 @@
 <view>wxParse Demo</view>
+<navigator url="/pages/rich-text-demo/index">
+  <button type="primary">富文本组件</button>
+</navigator>
 
 <import src="/libs/wxParse/wxParse.wxml" />
 

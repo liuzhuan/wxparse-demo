@@ -1,0 +1,16 @@
+/* pages/rich-text-demo/index.wxss */
+
+.rich {
+  border: 1px solid #CCC;
+  display: block;
+  margin: 10px 15px;
+  padding: 10px;
+}
+
+.red {
+  background: purple;
+}
+
+.blue {
+  background: steelblue;
+}

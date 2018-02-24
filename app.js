@@ -1,3 +1,8 @@
 App({
-  onLaunch(){}
+  onLaunch(){
+    wx.playBackgroundAudio({
+      dataUrl: '',
+    })
+  }
+  
 })
